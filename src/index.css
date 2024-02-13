@@ -1,13 +1,184 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* navbar */
+.navbars{
+    z-index: 0;
+}
+.navbars .navbarss{
+    background-color: rgba(73, 52, 24, 0.726);
+    border-radius: 30px;
+margin-top: 50px;
+}
+.navbars .links{
+    color: silver;
+    font-size: 14px;
+}
+.navbars .navbar_brand{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* background */
+.background_container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url(mount2.jpg);
+    background-size: cover;
+    padding-bottom: 15%;
+    text-align: center;
+    margin-bottom: 90px;
+    color: #fff;
+    z-index: -1;
+}
+.background_container h3{
+    padding-top: 18%;
+}
+.background_container button{
+    background-color: rgb(219, 34, 1);
+    border-color: rgb(219, 34, 1);
+    border-radius: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.background_container button:hover{
+    background-color: rgb(219, 34, 1);
+    border-color: rgb(219, 34, 1);
+    border-radius: 2px;
+}
+
+/* about */
+.about_div{
+    text-align: center;
+}
+.about_div h5{
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.about_div p{
+    margin-bottom: 70px;
+}
+.about_div .about_icon{
+    margin-bottom: 20px;
+}
+.about_container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(mount3.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+/* members */
+.members_container{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.members_container p{
+    margin-bottom: 50px;
+}
+
+/* connect */
+.connect_container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url(mount6.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 100px;
+    color: #fff;
+}
+.connect_container p{
+    text-align: center;
+}
+
+/* featured */
+.featured_container{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.featured_container h3{
+    margin-bottom: 30px;
+}
+.featured_container .card{
+    margin-bottom: 40px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+}
+.featured_container button{
+    background-color: rgb(219, 34, 1);
+    border-color: rgb(219, 34, 1);
+    border-radius: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.featured_container button:hover{
+    background-color: rgb(219, 34, 1);
+    border-color: rgb(219, 34, 1);
+    border-radius: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* contact */
+.contact_container{
+    background-color: rgb(240, 240, 240);
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.contact_container p{
+    margin-bottom: 40px;
+}
+.contact_container .contact_btn{
+    background-color: rgb(219, 34, 1);
+    border-color: rgb(219, 34, 1);
+    border-radius: 2px;
+}
+.contact_container .contact_btn:hover{
+    background-color: rgb(219, 34, 1);
+    border-color: rgb(219, 34, 1);
+    border-radius: 2px;
+}
+.contact_container .contact_btns{
+    background-color: rgb(37, 37, 37);
+    border-color: rgb(37, 37, 37);
+    border-radius: 2px;
+}
+.contact_container .contact_btns:hover{
+    background-color: rgb(37, 37, 37);
+    border-color: rgb(37, 37, 37);
+    border-radius: 2px;
+}
+.contact_container .card{
+    line-height: 33px;
+}
+.contact_container .contact_discount{
+    padding: 7px 15px;
+    border-radius: 100%;
+    background-color:rgb(219, 34, 1) ;
+}
+
+/* footer */
+.footer_container{
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer_container h5{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.footer_container p{
+    font-size: 15px;
+    line-height: 33px;
+    color: silver;
+    margin-bottom: 50px;
+}
+.footer_container h6{
+    font-size: 14px;
+}
+.footer_container .footer_div{
+    margin-top: -30px;
 }
